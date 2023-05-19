@@ -423,6 +423,9 @@ footer h1 {
     width: 100%;
     margin-left: 0;
   }
+  .backgroundText {
+    margin-top: 5%;
+  }
 }
 
 @media only screen and (max-width: 415px) {
