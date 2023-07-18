@@ -51,7 +51,7 @@
         border-radius: 5px;
       }
     </style>
-    <script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" ;>
       window.onbeforeunload = function () {
         window.scrollTo(0, 0);
       };
@@ -63,7 +63,7 @@
       <div class="logo">
         <h1 class="logo-text">Tony Hawk pro skater 2</h1>
       </div>
-      <ul class="menu">
+      <ul id="menubar" class="menu">
         <li>
           <a style="animation-delay: 0.2s" href="index.html">Home</a>
         </li>
@@ -72,7 +72,7 @@
         </li>
         <li><a style="animation-delay: 0.4" href="blog.html">Blog</a></li>
       </ul>
-      <button class="burger" onclick="toggleMenu()"></button>
+      <button class="buttonMenu" onclick="toggleMenu()"></button>
       <div class="background"></div>
     </nav>
     <section class="sectionHome">
