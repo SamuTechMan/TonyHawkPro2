@@ -47,7 +47,7 @@ body.open .buttonMenu {
   place-items: center;
   width: 200px;
   height: 100%;
-  background: #07030a;
+  background: rgba(0, 0, 0, 0.75);
   transform: translateX(-100%);
   transition: transform 0.375s cubic-bezier(0.175, 0.885, 0.32, 1);
 }
