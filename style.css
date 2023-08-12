@@ -260,7 +260,7 @@ nav {
 .backgroundText00 {
   background-color: rgba(0, 0, 0, 0.8);
   width: 470px;
-  margin-left: 23.5%;
+  margin-left: 20%;
   border-radius: 10px;
 }
 
@@ -324,6 +324,72 @@ footer h1 {
   animation: grow 1s;
 }
 
+.home-content-Blog {
+  max-width: 960px;
+  padding: 40px;
+  margin-top: 8%;
+  color: #9289e0;
+
+  text-align: left;
+}
+.home-content-Blog h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.backgroundTextBlog {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 260px;
+  padding: 2px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.backgroundTextBlog1 {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 620px;
+  padding: 2px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.backgroundTextBlog2 {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 680px;
+  padding: 2px;
+  padding-left: 6px;
+  border-radius: 10px;
+  margin-top: 2%;
+}
+
+.postBlog {
+  margin-bottom: 40px;
+  animation: grow 1s;
+}
+.postBlog h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.postBlog p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.postBlog a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.postBlog a:hover {
+  background-color: #ffd700;
+  color: #333;
+}
 @keyframes grow {
   from {
     transform: scale(0);
@@ -332,10 +398,10 @@ footer h1 {
     transform: scale(1);
   }
 }
-
 @media only screen and (max-width: 1400px) {
   .sectionHome,
-  .home-content {
+  .home-content,
+  .home-content-Blog {
     margin-top: 30%;
   }
 }
@@ -344,14 +410,18 @@ footer h1 {
   .backgroundText0,
   .backgroundText00,
   .backgroundText1,
-  .backgroundText2 {
+  .backgroundText2,
+  .backgroundTextBlog1,
+  .backgroundTextBlog2 {
     width: 100%;
     margin-left: 0;
   }
-  .backgroundText {
+  .backgroundText,
+  .backgroundTextBlog {
     margin-top: 5%;
   }
-  .home-content {
+  .home-content,
+  .home-content-Blog {
     margin-left: 0;
     margin-top: 10%;
     padding: 20px;
@@ -385,17 +455,21 @@ footer h1 {
   .backgroundText0,
   .backgroundText00,
   .backgroundText1,
-  .backgroundText2 {
+  .backgroundText2,
+  .backgroundTextBlog1,
+  .backgroundTextBlog2 {
     width: 100%;
     margin-left: 0;
     font-size: small;
   }
-  .home-content {
+  .home-content,
+  .home-content-Blog {
     margin-left: 0;
     margin-top: 10%;
     padding: 20px;
   }
-  .backgroundText {
+  .backgroundText,
+  .backgroundTextBlog {
     margin-top: 5%;
   }
   .sectionHome {
